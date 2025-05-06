@@ -29,7 +29,7 @@ bool placeQueens(int mat[][10], int row, int n) {
 
     for (int i = 0; i < n; i++) {
         if (isSafe(mat, row, i, n)) {
-            mat[row][i] = 1;  // Place the queen
+            mat[row][i] = 1;  
             if (placeQueens(mat, row + 1, n)) {
                 return true;
             }
@@ -56,7 +56,7 @@ int main() {
     int n = 4;  
     int mat[10][10] = {0};  
     if (placeQueens(mat, 0, n)) {
-        printBoard(mat, n);  // Print the solution board
+        printBoard(mat, n); 
     } else {
         printf("Solution does not exist\n");
     }
