@@ -27,7 +27,6 @@ bool placeQueens(int mat[][10], int row, int n) {
         return true;
     }
 
-    // Consider this row and try placing the queen in all columns one by one
     for (int i = 0; i < n; i++) {
         if (isSafe(mat, row, i, n)) {
             mat[row][i] = 1;  // Place the queen
@@ -54,7 +53,7 @@ void printBoard(int mat[][10], int n) {
 }
 
 int main() {
-    int n = 4;  // You can change the value of n to solve for different sizes
+    int n = 4;  
     int mat[10][10] = {0};  // Initialize the board with 0s (empty)
 
     if (placeQueens(mat, 0, n)) {
@@ -64,5 +63,13 @@ int main() {
     }
 
     return 0;
+
 }
+
+
+OUTPUT:
+. Q . . 
+. . . Q 
+Q . . . 
+. . Q . 
 
