@@ -54,8 +54,7 @@ void printBoard(int mat[][10], int n) {
 
 int main() {
     int n = 4;  
-    int mat[10][10] = {0};  // Initialize the board with 0s (empty)
-
+    int mat[10][10] = {0};  
     if (placeQueens(mat, 0, n)) {
         printBoard(mat, n);  // Print the solution board
     } else {
