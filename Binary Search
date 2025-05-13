@@ -66,3 +66,13 @@ int main() {
 
     return 0;
 }
+
+OUTPUT:
+Enter the number of elements (up to 1000): 45
+Array elements (sorted):
+44 70 87 72 90 88 29 98 56 40 82 51 73 81 34 22 74 84 12 5 24 87 99 67 85 30 25 18 45 40 17 89 62 4 13 52 44 94 2 0 35 85 3 60 66 
+Random key to search for: 38
+Element not found
+Time Taken in seconds: 0.000002
+
+
