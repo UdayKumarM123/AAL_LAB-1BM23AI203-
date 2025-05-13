@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define MAX_SIZE 1000
+
 int main() {
     int key, n, count = 0, i;
     clock_t start_time, end_time;
@@ -51,3 +53,12 @@ int main() {
 
     return 0;
 }
+
+OUTPUT:
+Enter the number of elements (up to 1000): 35
+Array elements:
+19 66 43 43 85 74 58 24 48 85 56 54 56 60 58 37 21 52 28 28 84 1 13 42 27 86 15 88 19 71 12 39 37 7 82 
+Random key to search for: 22
+Element not found
+Time Taken for search in seconds: 0.000002
+
