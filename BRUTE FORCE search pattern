@@ -30,3 +30,9 @@ int main()
     return 0;
 }
 }
+
+
+Output:
+Enter the string: nobody_noticed_him
+Enter the pattern to search: him
+Pattern found at index 15
